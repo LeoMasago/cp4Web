@@ -1,6 +1,11 @@
+import TextoInfos from "../Componentes/TextoInfos";
+
+
 function Sobre() { /* ffc -> atalho para criar function */
     return ( 
-        <h1>Página Sobre</h1>
+        <section id="info">
+            <TextoInfos/>
+        </section>
      );
 }
 

@@ -1,11 +1,11 @@
-function Informacoes({dadosText}) {
+function Text2({dadosText}) {
     return ( 
         <>
         {
             dadosText.map((pegaText)=> (
                 <div className="personal-info">
-                    <h1>{pegaText.titulo1}</h1>
-                    <p>{pegaText.conteudo1}</p>
+                    <h1>{pegaText.titulo2}</h1>
+                    <p>{pegaText.conteudo2}</p>
                 </div>
             ))
         }
@@ -14,4 +14,4 @@ function Informacoes({dadosText}) {
      );
 }
 
-export default Informacoes;
+export default Text2;

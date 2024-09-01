@@ -1,16 +1,15 @@
 import ContactForm from "../ContactForm";
-import Informacoes from "../Informacoes";
-import Skills from "../CardConteudo";
-
+import CardConteudo from "../CardConteudo";
+import TextoInfos from "../TextoInfos"
 
 
 function ConteudoPrincipal(){
     return (
         <div className="mainInfo">
         <section id='info'>
-            <Informacoes />
+            <TextoInfos />
         </section>
-        <Skills />
+        <CardConteudo />
         <ContactForm />
       </div>
     );
