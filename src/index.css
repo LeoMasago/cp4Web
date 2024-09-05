@@ -84,9 +84,10 @@ nav ul li a:hover {
 }
 #contact form button {
   width: 10%;
-  border-radius: 30px;
+  height: 5%;
+  border-radius: 5px;
   border: none;
-  background-color:#2980b9 ;
+  background-color:#6975E8 ;
   color: white;
   padding: 10px;
   cursor: pointer;
@@ -101,4 +102,14 @@ button{
   padding: 24px 56px 24px 56px;
   cursor: pointer;
 }
+.textos{
+  display: flex;
+  align-items: center;
+}
+.mensagem{
+  display:flex ;
+  flex-direction: row;
+  text-align: left;
+}
+
 
