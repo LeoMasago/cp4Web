@@ -1,17 +1,16 @@
-import ContactForm from "../ContactForm";
 import CardConteudo from "../CardConteudo";
-import TextoInfos from "../TextoInfos"
-
+import Informacoes from "../Informacoes";
+import tela1 from "../../assets/tela1.png";
 
 function ConteudoPrincipal(){
     return (
         <div className="mainInfo">
         <section id='info'>
-            <TextoInfos />
+            <Informacoes />
+            <img src={tela1}/>
         </section>
         <CardConteudo />
-        <ContactForm />
-      </div>
+       </div>
     );
 }
 

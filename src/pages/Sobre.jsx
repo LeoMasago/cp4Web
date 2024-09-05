@@ -1,10 +1,10 @@
-import TextoInfos from "../Componentes/TextoInfos";
+import Text2 from "../Componentes/Text2";
 
 
 function Sobre() { /* ffc -> atalho para criar function */
     return ( 
         <section id="info">
-            <TextoInfos/>
+            <Text2/>
         </section>
      );
 }

@@ -8,11 +8,13 @@ export default function Card({dados}) {
                     key={index} 
                     style={
                         {
+                           
                             backgroundColor: pegaDados.bg,
                             color: pegaDados.color,
                         }}>
-                    <div style={{color:pegaDados.tcolor}}>
+                    <div style={{color:pegaDados.tcolor, display:'flex', gap: '80%'}}>
                         <h2>{pegaDados.num}</h2>
+                        <img src={pegaDados.img}></img>
                     </div>
                     <p>{pegaDados.titulo}</p>
                     <p>{pegaDados.texto}</p>

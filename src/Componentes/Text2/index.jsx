@@ -1,16 +1,10 @@
-function Text2({ dadosText }) {
+function Text2() {
     return (
-        <>
-            {
-                dadosText.map((pegaText) => (
-                    <div className="personal-info">
-                        <h1>{pegaText.titulo2}</h1>
-                        <p>{pegaText.conteudo2}</p>
-                    </div>
-                ))
-            }
+        <div className="personal-info">
+            <h1>Bem-vindo à revolução dos vídeos!</h1>
+            <p>Somos uma startup com o objetivo de facilitar a produção de conteúdo em larga escala com qualidade profissional, capaz de atingir uma audiência de milhões de seguidores.</p>
+        </div>
 
-        </>
     );
 }
 

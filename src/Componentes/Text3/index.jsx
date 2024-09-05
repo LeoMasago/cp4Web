@@ -1,16 +1,9 @@
-function Text3({ dadosText }) {
+function Text3() {
     return (
-        <>
-            {
-                dadosText.map((pegaText) => (
-                    <div className="personal-info">
-                        <h1>{pegaText.titulo3}</h1>
-                        <p>{pegaText.conteudo3}</p>
-                    </div>
-                ))
-            }
-
-        </>
+        <div className="personal-info">
+            <h1>Dúvidas e suporte, entre em contato:</h1>
+            <p></p>
+        </div>
     );
 }
 

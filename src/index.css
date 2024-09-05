@@ -62,9 +62,11 @@ nav ul li a:hover {
 .skill-card {
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 10px;
+  width: 20%;
+  padding: 40px;
   margin-bottom: 10px;
 }
+
 #contact{
   text-align: center;
 }

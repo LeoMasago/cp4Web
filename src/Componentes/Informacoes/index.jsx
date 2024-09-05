@@ -1,15 +1,12 @@
-function Informacoes({dadosText}) {
+
+function Informacoes() {
     return ( 
         <>
-        {
-            dadosText.map((pegaText)=> (
-                <div className="personal-info">
-                    <h1>{pegaText.titulo1}</h1>
-                    <p>{pegaText.conteudo1}</p>
-                </div>
-            ))
-        }
-
+        <div className="personal-info">
+            <h1>Crie seus vídeos online</h1>
+            <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
+            <button>Começar agora !</button>
+        </div>
         </>
      );
 }

@@ -1,4 +1,8 @@
 import Card from "../Card";
+import youtube from "../../assets/youtube.png"
+import instagram from "../../assets/instagram.png"
+import tiktok from "../../assets/tiktok.png"
+import facebook from "../../assets/facebook.png"
 
 function CardConteudo({ CardConteudo }) {
 
@@ -9,7 +13,8 @@ function CardConteudo({ CardConteudo }) {
       texto:"Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.",
       tcolor:"#FFFFFF",
       color:"#333333",
-      bg:"#F1C2B0"
+      bg:"#F1C2B0",
+      img:`${youtube}`
     },
     {
       num:"02",
@@ -17,7 +22,8 @@ function CardConteudo({ CardConteudo }) {
       texto:"Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.",
       tcolor:"#FFFFFF",
       color:"#333333",
-      bg:"#F9EB98"
+      bg:"#F9EB98",
+      img:`${tiktok}`
     },
     {
       num:"03",
@@ -25,7 +31,8 @@ function CardConteudo({ CardConteudo }) {
       texto:"Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.",
       tcolor:"#FFFFFF",
       color:"333333#",
-      bg:"#C0D9DD"
+      bg:"#C0D9DD",
+      img:`${facebook}`
     },
     {
       num:"04",
@@ -33,7 +40,8 @@ function CardConteudo({ CardConteudo }) {
       texto:"Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.",
       tcolor:"#FFFFFF",
       color:"#333333",
-      bg:"#6975E8"
+      bg:"#6975E8",
+      img:`${instagram}`
     }
   ]
 

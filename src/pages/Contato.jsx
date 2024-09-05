@@ -1,10 +1,13 @@
-import TextoInfos from "../Componentes/TextoInfos";
-
+import ContactForm from "../Componentes/ContactForm";
+import Text3 from "../Componentes/Text3";
 function Contato() {
     return (  
+        <>
         <section id="info">
-            <TextoInfos/>
+            <Text3/>
         </section>
+        <ContactForm/>
+        </>
     );
 }
 
