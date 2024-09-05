@@ -44,7 +44,7 @@ function CardConteudo({ CardConteudo }) {
       img:`${instagram}`
     }
   ]
-
+  
   return (
     <div className="skills">
       <Card dados={conteudo}/> 
