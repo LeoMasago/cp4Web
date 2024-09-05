@@ -5,8 +5,8 @@ function Contato() {
         <>
         <section id="info">
             <Text3/>
+            <ContactForm/>
         </section>
-        <ContactForm/>
         </>
     );
 }

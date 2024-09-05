@@ -83,7 +83,7 @@ nav ul li a:hover {
   padding: 10px;
 }
 #contact form button {
-  width: 10%;
+  width: 30%;
   height: 5%;
   border-radius: 5px;
   border: none;
@@ -102,14 +102,25 @@ button{
   padding: 24px 56px 24px 56px;
   cursor: pointer;
 }
-.textos{
+
+h1{
+  width: 570px;
+  height: 148px;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+p{
+  width: 497px;
+  height: 96px;
+  font-size: 24px;
+}
+.contato{
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding: 10px 45px;
+  width: 500px;
 }
-.mensagem{
-  display:flex ;
-  flex-direction: row;
-  text-align: left;
-}
+
 
 

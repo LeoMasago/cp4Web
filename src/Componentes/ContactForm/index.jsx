@@ -1,25 +1,18 @@
 function ContactForm() {
   return (
-    <section id="contact">
-      <form>
-        <div className="contato">
-          <div className="textos">
-            <p>Nome:</p>
+    <section id="contact" className="contato">
+      <form className="formContato">
+            <label htmlFor="">Nome:</label>
             <input type="text" placeholder="Nome"/>
-          </div>
-          
-          <div className="textos">
-            <p>Email:</p>
+
+
+            <label htmlFor="">Email:</label>
             <input type="email" placeholder="Email" />
-          </div>
 
-          <div className="mensagem">
-            <p>Mensagem:</p>
+            <label htmlFor="">Mensagem:</label>
             <textarea placeholder="Mensagem" />
-          </div>
-        </div>
 
-        <button>Enviar</button>
+          <button>Enviar</button>
       </form>
     </section>
   );
