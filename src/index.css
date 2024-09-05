@@ -50,8 +50,8 @@ nav ul li a:hover {
 
 #info {
   display: flex;
-  justify-content: space-around;
   padding: 20px;
+  width: 50%;
 }
 
 
@@ -67,16 +67,13 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-#contact{
-  text-align: center;
-}
 #contact form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#contact form input,
+
 #contact form textarea{
   margin: 10px 100px;
   width: 50%;
@@ -99,20 +96,22 @@ button{
   border: none;
   background-color:#333333 ;
   color: white;
-  padding: 24px 56px 24px 56px;
+  padding: auto 56px auto 56px;
   cursor: pointer;
+  font-size: 50%;
 }
 
 h1{
   width: 570px;
   height: 148px;
-  font-size: 60px;
-  margin-bottom: 50px;
+  font-size: 50px;
+  margin-bottom: 4%;
 }
 p{
-  width: 497px;
-  height: 96px;
-  font-size: 24px;
+  width: 90%;
+  height: auto;
+  font-size: 19px;
+  margin-bottom: 5%;
 }
 .contato{
   display: flex;
@@ -123,4 +122,30 @@ p{
 }
 
 
+.skills {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#contact form input {
 
+}
+input {
+  border-radius: 10px;
+  border-color: #ffffff;
+  padding: 5px;
+  box-shadow: rgb(92, 92, 92) 2px 2px;
+  
+}
+.formContato{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+#contact.contato{
+  justify-content: start;
+}
+
+h3{
+  font-size: large;
+}
