@@ -1,5 +1,6 @@
 import InfoCardPlanos from "../Componentes/InfoCardPlanos";
 import Text2 from "../Componentes/Text2";
+import tela1 from "../assets/tela1.jpg"
 ;
 
 
@@ -7,20 +8,22 @@ import Text2 from "../Componentes/Text2";
 
 function Sobre() { /* ffc -> atalho para criar function */
     return ( 
-        <>
-        <div style={{display:"flex", flexDirection:"row"}}>
-            <div style={{display:"flex", flexDirection:"column"}} id="info">
-                <Text2/>
-                <button><h3>Baixe o app</h3></button>
+        <div className="mainInfo" >
+            <div id='info'style={{display:"flex", height:"500px"}}>
+                <div style={{display:"flex", flexDirection:"column"}}>
+                <Text2 />
+                </div>
+                <img src={tela1} style={{}}/>
             </div>
-            <div style={{display:"flex", justifyContent:"start", width:"100px"}}>
-                <img  style={{maxHeight:"30%"}} src="src\assets\tela1.jpg" alt="Tela de celular" />
-                <img style={{maxHeight:"30%"}} src="src\assets\tela2.jpg" alt="" />
+            <div style={{display:"flex",flexDirection:"column"}}>
+                <h1 style={{ width:"100%", textAlign:"center"}}>Planos</h1>
+            <div style={{display:"flex", justifyContent:"center", gap:"10%"}}>
+            <InfoCardPlanos/>
             </div>
-            
-        </div>
-        <InfoCardPlanos/>
-        </>
+            </div>
+       </div>
+        
+        
         
      );
 }

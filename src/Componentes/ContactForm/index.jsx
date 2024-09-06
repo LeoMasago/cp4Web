@@ -1,6 +1,6 @@
 function ContactForm() {
   return (
-    <section id="contact" className="contato">
+    <section id="contact" className="contato" style={{dispplay:"flex", justifyContent:"end"}}>
       <div className="formContato">
             <div style={{display:"flex", margin:"8%", gap:"4%"}}htmlFor="">
               <h3>Nome:</h3>

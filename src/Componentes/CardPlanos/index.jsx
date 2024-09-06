@@ -3,8 +3,9 @@ export default function CardPlanos({dadosPlanos}) {
         <>
         {
             dadosPlanos.map((pegaPlanos,index) => 
+            
             <div
-                class=""
+                class="CardSobre"
                 key ={index}
                 style={
                     {
@@ -12,18 +13,13 @@ export default function CardPlanos({dadosPlanos}) {
                         color: "gray",
                         borderRadius:"5%"
                     }}>
-                <div style={{color:"green", display:'flex',justifyContent:"start", marginBottom:"5%", flexDirection:"row"}}>
+                <div style={{display:'flex',justifyContent:"start", flexDirection:"row"}}>
                     <header>
-                        <h1>{pegaPlanos.titulo}</h1>
+                        <h1 style={{fontSize:"20px"}}>{pegaPlanos.titulo}</h1>
                     </header>
 
-                    <div className="">
-                        <img src={pegaPlanos.img}/>
-                    </div>
                     
-                    <footer>
-                        <button>{pegaPlanos.txtbutton}</button>
-                    </footer>
+                    
                 </div>
             </div>
             )
