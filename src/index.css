@@ -157,11 +157,14 @@ h3{
   height: 100%;
 }
 .CardSobre{
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   width: 20%;
   padding: 40px;
   margin-bottom: 10px;
   justify-content: center;
   
+}
+h1 {
+  width: auto;
 }
